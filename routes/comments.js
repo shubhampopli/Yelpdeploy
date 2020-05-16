@@ -2,7 +2,7 @@
 var express = require("express");
 var router  = express.Router({mergeParams: true});
 var Campground = require("../models/campground");
-var Comment = require("../models/comment");
+var Comment = require("../models/Comment");
                       
 router.get("/new",isLoggedIn,function(req, res){
     // find campground by id
