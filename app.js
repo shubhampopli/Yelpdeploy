@@ -12,12 +12,12 @@ var express     = require("express"),
 var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
-mongoose.connect(process.env.DATABASEURL);
+mongoose.connect("mongodb+srv://shubham:rusty@cluster0-mnrrj.mongodb.net/test?retryWrites=true&w=majority");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(methodOverride("_method"));
-console.
+
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
