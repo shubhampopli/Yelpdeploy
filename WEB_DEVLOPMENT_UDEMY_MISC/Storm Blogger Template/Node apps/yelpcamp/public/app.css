@@ -1,0 +1,76 @@
+body{
+background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+div {
+    
+    
+}
+
+.jumbotron {
+    margin-top: 5rem;
+    word-spacing: 0.2rem;
+   font-family: 'Noto Serif', serif;
+}
+
+img {
+    float:left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+
+
+
+
+.center {
+    text-align: center;
+    margin:0 auto;
+    position: absolute;
+    width:25%;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    margin-top:200px;
+    text-align: center;
+   
+}
+
+
+form {
+    font-size: 23px;
+    
+}
+
+form {
+    margin-top: 10rem;
+    display: block;
+    text-align: center;
+    paddinf
+}
+
+
+
+.form-group {
+    
+}
+
+h1 {
+    
+}
+
+h1 {
+    color: darkslategray;
+}
